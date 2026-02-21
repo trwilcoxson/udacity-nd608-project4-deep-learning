@@ -14,7 +14,7 @@ A deep learning experiment comparing a baseline CNN against a Batch Normalizatio
 - **Dataset:** CIFAR-10 — 60,000 32x32 color images, 10 balanced classes
 - **Framework:** PyTorch with MPS (Apple Silicon GPU) acceleration
 - **BatchNorm adds only ~0.15% more parameters** while improving convergence speed and final accuracy
-- **Improvement observed across nearly all 10 classes**, with the largest gains on visually ambiguous categories (cat, dog, deer)
+- **Improvement observed across nearly all 10 classes**, with the largest gains on visually ambiguous categories (cat, bird, deer)
 
 ## Project Structure
 
