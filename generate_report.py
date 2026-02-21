@@ -602,6 +602,11 @@ def build_report():
             "Research, 15(1), 1929-1958."
         ),
         (
+            "Ulyanov, D., Vedaldi, A., & Lempitsky, V. (2016). Instance "
+            "Normalization: The Missing Ingredient for Fast Stylization. "
+            "arXiv preprint arXiv:1607.08022."
+        ),
+        (
             "Wu, Y., & He, K. (2018). Group Normalization. Proceedings of "
             "the European Conference on Computer Vision (ECCV), 3-19."
         ),

@@ -49,7 +49,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Run the notebook (trains both models, ~20 min on Apple Silicon MPS)
+# Run the notebook (trains both models, ~5 min on Apple Silicon MPS)
 jupyter notebook deep_learning.ipynb
 
 # Regenerate the PDF report
@@ -58,7 +58,7 @@ python generate_report.py
 
 ## Technologies
 
-- **Python 3.13** — PyTorch, Torchvision, NumPy, Pandas, Matplotlib, Seaborn
+- **Python 3.14** — PyTorch, Torchvision, NumPy, Pandas, Matplotlib, Seaborn
 - **Deep learning** — CNN, Batch Normalization, SGD with momentum, StepLR scheduler
 - **Evaluation** — Confusion matrices, per-class precision/recall/F1, error analysis
 - **Report generation** — fpdf2
