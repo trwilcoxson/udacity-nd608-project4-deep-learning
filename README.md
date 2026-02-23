@@ -5,7 +5,7 @@ A deep learning experiment comparing a baseline CNN against a Batch Normalizatio
 | | |
 |---|---|
 | **Author** | Tim Wilcoxson |
-| **Course** | Project 4 — Deep Learning Systems |
+| **Focus** | Deep Learning Systems |
 | **Date** | February 2026 |
 
 ## Key Findings
@@ -43,7 +43,7 @@ project4_deep_learning/
 ## Setup and Reproduction
 
 ```bash
-git clone https://github.com/trwilcoxson/udacity-nd608-project4-deep-learning.git
+git clone https://github.com/trwilcoxson/cnn-batchnorm-cifar10.git
 cd project4_deep_learning
 python -m venv venv
 source venv/bin/activate

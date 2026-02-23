@@ -2,7 +2,7 @@
 Generate the PDF report for the Deep Learning Systems project.
 
 Produces both 'module_summary.pdf' and 'Deep_Learning_Systems_Analysis_Report.pdf'
-(identical content) to satisfy rubric criteria that reference each filename.
+(identical content, two filenames for convenience).
 
 Usage:
     python generate_report.py
@@ -22,7 +22,7 @@ OUTPUT_COPY = f"{PROJECT_DIR}/Deep_Learning_Systems_Analysis_Report.pdf"
 TITLE = "Deep Learning Systems: CNN Image Classification on CIFAR-10"
 AUTHOR = "Tim Wilcoxson"
 DATE = "February 2026"
-COURSE = "Project 4 -- Deep Learning Systems"
+SUBTITLE = "Deep Learning Systems"
 DATASET = "CIFAR-10 (Krizhevsky, 2009)"
 
 # Page geometry
@@ -153,7 +153,7 @@ def build_report():
     pdf.set_text_color(60, 60, 60)
     pdf.cell(CONTENT_W, 8, AUTHOR, align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.cell(CONTENT_W, 8, DATE, align="C", new_x="LMARGIN", new_y="NEXT")
-    pdf.cell(CONTENT_W, 8, COURSE, align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(CONTENT_W, 8, SUBTITLE, align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.ln(6)
     pdf.set_font("Helvetica", "I", 11)
     pdf.cell(CONTENT_W, 8, f"Dataset: {DATASET}", align="C",
